@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="咨询"/>
+    <group android:id="@+id/g1">
+        <item android:id="@+id/n1"
+            android:checkable="true"
+            android:title="知乎日报"
+            android:icon="@mipmap/ic_drawer_zhihu"/>
+        <item android:id="@+id/n2"
+            android:checkable="true"
+            android:title="微信精选"
+            android:icon="@mipmap/ic_drawer_wechat"/>
+        <item android:id="@+id/n3"
+            android:title="干活集中营"
+            android:checkable="true"
+            android:icon="@mipmap/ic_drawer_gank"/>
+        <item android:id="@+id/n4"
+            android:title="稀土掘金"
+            android:checkable="true"
+            android:icon="@mipmap/ic_drawer_gold"/>
+    </group>
+
+    <item android:title="选项" />
+    <group android:id="@+id/g3">
+        <item android:id="@+id/n5"
+            android:checkable="true"
+            android:title="收藏"
+            android:icon="@mipmap/ic_drawer_like"/>
+        <item android:id="@+id/n6"
+            android:checkable="true"
+            android:title="设置"
+            android:icon="@mipmap/ic_drawer_setting"/>
+        <item android:id="@+id/n7"
+            android:title="关于"
+            android:checkable="true"
+            android:icon="@mipmap/ic_drawer_about"/>
+    </group>
+</menu>
